@@ -9,13 +9,15 @@ plot4.R - Creates the fourth plot when passed the data as returned by loadData.R
 createPlots.R - When run, loads the data and then creates all four plots
 
 To recreate in R, load in all R scripts and then run createPlots() as shown below:
-> source("loadData.R")
-> source("plot1.R")
-> source("plot2.R")
-> source("plot3.R")
-> source("plot4.R")
-> source("createPlots.R")
-> createPlots()
+```
+source("loadData.R")
+source("plot1.R")
+source("plot2.R")
+source("plot3.R")
+source("plot4.R")
+source("createPlots.R")
+createPlots()
+```
 
 ## Introduction
 

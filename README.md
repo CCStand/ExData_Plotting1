@@ -1,12 +1,12 @@
 ## Reproducing Results
 
-There are six R scripts:
-loadData.R - Downloads zip file from source, unzips, reads into R and formats it for use
-plot1.R - Creates the first plot when passed the data as returned by loadData.R
-plot2.R - Creates the second plot when passed the data as returned by loadData.R
-plot3.R - Creates the third plot when passed the data as returned by loadData.R
-plot4.R - Creates the fourth plot when passed the data as returned by loadData.R
-createPlots.R - When run, loads the data and then creates all four plots
+There are six R scripts:  
+**loadData.R** - Downloads zip file from source, unzips, reads into R and formats it for use  
+**plot1.R** - Creates the first plot when passed the data as returned by loadData.R  
+**plot2.R** - Creates the second plot when passed the data as returned by loadData.R  
+**plot3.R** - Creates the third plot when passed the data as returned by loadData.R  
+**plot4.R** - Creates the fourth plot when passed the data as returned by loadData.R  
+**createPlots.R** - When run, loads the data and then creates all four plots  
 
 To recreate in R, load in all R scripts and then run createPlots() as shown below:
 ```
